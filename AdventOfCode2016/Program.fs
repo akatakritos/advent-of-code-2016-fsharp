@@ -3,6 +3,7 @@
 
 [<EntryPoint>]
 let main argv =
-    Day1.parseFile "input-1.txt"
+    Day1.PuzzleA.followSaved "input-1.txt"
+
     System.Console.ReadKey() |> ignore
     0 // return an integer exit code
